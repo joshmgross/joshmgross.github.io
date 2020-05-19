@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #24292e;
+    color: #f1f8ff;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 36px;
+}
+
+a {
+    color: #79b8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Box {
+    padding: 20px;
+
+    border: 4px solid #f1f8ff;
+
+    display: flex;
+}
+
+span {
+    padding: 16px;
+}
+
+@media screen and (prefers-color-scheme: light) {
+    body {
+        background-color: #f1f8ff;
+        color: #24292e;
+    }
+
+    a {
+        color: #044289;
+    }
+    
+}
+
